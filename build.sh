@@ -1,0 +1,1 @@
+solcjs --optimize --bin --abi --overwrite -o ./build ./contracts/external/*.sol ./contracts/*.sol

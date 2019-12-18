@@ -1,0 +1,12 @@
+var c = eth.contract()
+var bytecode ='0x...'
+var deploy = {from:eth.coinbase, data:bytecode, gas: 4000000}
+var instance = c.new(deploy)
+instance.address
+
+
+var c1 = eth.contract()
+var bytecode1 ='0x...'
+var deploy1 = {from:eth.coinbase, data:bytecode1, gas: 2000000}
+var instance1 = c1.new(deploy1)
+instance1.address

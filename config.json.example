@@ -1,0 +1,30 @@
+{
+  "blockchains": [
+  ],
+  "phases": {
+    "preoffer": 0,
+    "offer": 1,
+    "pretransaction": 2,
+    "transaction": 3,
+    "prevote": 4,
+    "vote": 5,
+    "postvote": 6,
+    "waitforfinish": 7,
+    "finished": 8
+  },
+  "resultphases": {
+    "init": 0,
+    "verification": 1,
+    "verified": 2
+  },
+  "votingphases": {
+    "before": 0,
+    "voting": 1,
+    "after": 2,
+    "waitforfinalize": 3,
+    "finalized": 4
+  },
+  "offer_blocks": 10,
+  "voting_blocks": 10,
+  "fraudDistanceBlocks": 40000
+}
